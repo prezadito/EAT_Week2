@@ -46,8 +46,8 @@ public class TempConverterAnswer {
             // asking if user wants to run loop again
             do {
                 System.out.println("Do you want to convert other temperatures: Y/N\n" +
-                                   "[y] Yes\n" +
-                                   "[n] No");
+                                   "[Y]es\n" +
+                                   "[N]o");
                 answer = sc.nextLine().charAt(0);
             } while (answer != 'y' && answer != 'n');
         } while (answer == 'y');
